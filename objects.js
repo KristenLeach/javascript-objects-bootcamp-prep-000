@@ -1,7 +1,7 @@
-var playlist = new Object({Cohen: 'Everybody Knows', Young: 'Ohio', Zombies: 'Time of the Season'});
+var playlist = new Object({'Leonard Cohen': 'Everybody Knows', 'Neil Young': 'Ohio', 'The Zombies': 'Time of the Season'});
 
 
 function updatePlaylist(playlist, artistName, songTitle){
-  playlist['Dylan'] = 'Fourth Time Around';
+  playlist['Phil Ochs'] ="Here's to the State of Mississippi";
   return playlist;
 }
